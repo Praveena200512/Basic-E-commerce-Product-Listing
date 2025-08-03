@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+}
+
+header{
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0;
+    color: white;
+    font-weight: 600;
+    height: auto;
+}
+
+.nav-bar{
+    background-color:gray;
+    height: 70px;
+    display:flex;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+    transition: transform 0.3s;
+
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #005fa3;
+}
+
+a{
+    float: left;
+    margin-right: 30px;
+    font-size: 20px;
+    color: black;
+    margin-left: 30px;
+}
+
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+a:hover{
+    font-size: 25px;
+    color: blue;
+}
+
+.product h2{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.description{
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-weight: bold;
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+    border-radius: 8px;
+    
+}
+
+.sold-out{
+    opacity: 0.6;
+    position: relative;
+}
+
+.sold{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 100px;
+    
+}
